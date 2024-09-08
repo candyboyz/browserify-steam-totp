@@ -8,7 +8,9 @@ This is a library for creating a 2fa Steam code, as well as for creating a confi
 
 # Installation
 
-`npm install browserify-steam-totp`
+```bash
+npm install browserify-steam-totp
+```
 
 # Usage
 
