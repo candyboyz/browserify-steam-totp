@@ -1,8 +1,8 @@
 # Browserify Steam TOTP
 
-[![npm version](https://img.shields.io/npm/v/browserify-steam-totp.svg)](https://www.npmjs.com/package/browserify-steam-totp)
-[![npm downloads](https://img.shields.io/npm/dm/browserify-steam-totp)](https://www.npmjs.com/package/browserify-steam-totp)
-[![license](https://img.shields.io/npm/l/browserify-steam-totp.svg)](https://github.com/candyboyz/browserify-steam-totp/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/browserify-steam-totp.svg?logo=npm)](https://www.npmjs.com/package/browserify-steam-totp)
+[![npm downloads](https://img.shields.io/npm/dm/browserify-steam-totp?logo=npm)](https://www.npmjs.com/package/browserify-steam-totp)
+[![license](https://img.shields.io/npm/l/browserify-steam-totp.svg?logo=github)](https://github.com/candyboyz/browserify-steam-totp/blob/main/LICENSE)
 
 This is a library for creating a 2fa Steam code, as well as for creating a confirmation code. The library can be used both in Node.js and in the Browser.
 

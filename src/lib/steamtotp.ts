@@ -28,10 +28,9 @@ export class SteamAuthenticator {
 
     const time = Math.floor(this.getTime(timeOffset) / this._PERIOD);
 
-    const buffer = new Array(8).fill(0);
-    for (let i = 4; i < 8; i++) {
-      buffer[i] = (time >> ((7 - i) * 8)) & 0xff;
-    }
+    const buffer = Buffer.allocUnsafe(8);
+    buffer.writeUInt32BE(0, 0);
+    buffer.writeUint32BE(time, 4);
 
     const hmac = CryptoJS.HmacSHA1(
       CryptoJS.lib.WordArray.create(buffer),
